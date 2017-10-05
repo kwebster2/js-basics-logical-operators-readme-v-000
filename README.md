@@ -144,9 +144,9 @@ if (user && friendCount) {
   message = `Hi ${user}! You have ${friendCount} ${friendCount === 1 ? 'friend' : 'friends'}!`;
 } else {
   if (user) {
-    message = 'Please sign in.';
+    message = 'Link up with your friends to get the most out of Flatbook!';  
   } else {
-    message = 'Link up with your friends to get the most out of Flatbook!';
+    message = 'Please sign in.';
   }
 }
 // => "Hi Charles Babbage! You have 3 friends!"
